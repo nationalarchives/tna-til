@@ -1,2 +1,2 @@
-# TIL
+# TIL JS
 Today I Learned
