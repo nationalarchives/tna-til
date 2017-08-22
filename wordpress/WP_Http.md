@@ -15,3 +15,6 @@ $json = $result['body'];
 return $json;
 ```
 
+References:
+
+https://developer.wordpress.org/reference/classes/wp_http/
