@@ -18,7 +18,7 @@ function get_blog_list_authors() {
 
 	foreach ( $authors as $author ) :
 
-		echo '<option value="' . esc_html( $author->ID ) . '">' . esc_html( $author->display_name ) . '</option>';
+		echo '<li class="user-id-' . esc_html( $author->ID ) . '">' . esc_html( $author->display_name ) . '</li>';
 
 	endforeach;
 }
